@@ -8,18 +8,18 @@ This repository contains the R code for reproducing the simulation studies and r
   Implementation of the online learning methods considered in the paper, including AD-IHT, AD-Lasso, Renew-Lasso, Renew-SIM, and RADAR-GLM.
 
 - **logistic simulation.R**  
- Simulation code for high-dimensional online logistic regression, including two online settings:
- 1. fixed sample size for each batch;
- 2. exponentially increasing sample size across batches.
+  Simulation code for high-dimensional online logistic regression, including two online settings:
+  1. fixed sample size for each batch;
+  2. exponentially increasing sample size across batches.
 
 - **logistic plot.R**  
   Visualization code for the logistic regression simulation results.
 
 - **poisson simulation.R**  
- Simulation code for high-dimensional online Poisson regression under two online settings:
- 1. fixed sample size for each batch;
- 2. exponentially increasing sample size across batches.
- The corresponding results are reported in the Supplementary Material.
+  Simulation code for high-dimensional online Poisson regression under two online settings:
+  1. fixed sample size for each batch;
+  2. exponentially increasing sample size across batches.
+  The corresponding results are reported in the Supplementary Material.
 
 - **poisson plot.R**  
   Visualization code for the Poisson regression simulation results reported in the Supplementary Material.
