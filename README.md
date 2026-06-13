@@ -16,10 +16,10 @@ This repository contains the R code for reproducing the simulation studies and r
   Visualization code for the logistic regression simulation results.
 
 - **poisson simulation.R**  
-  Simulation code for high-dimensional online Poisson regression under two online settings:
-  1. fixed sample size for each batch;
-  2. exponentially increasing sample size across batches.
-  The corresponding results are reported in the Supplementary Material.
+ Simulation code for high-dimensional online Poisson regression under two online settings:
+ 1. fixed sample size for each batch;
+ 2. exponentially increasing sample size across batches.
+ The corresponding results are reported in the Supplementary Material.
 
 - **poisson plot.R**  
   Visualization code for the Poisson regression simulation results reported in the Supplementary Material.
