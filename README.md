@@ -7,29 +7,45 @@ This repository contains the R code for reproducing the simulation studies and r
 - **code/funs.R**  
   Implementation of the online learning methods considered in the paper, including AD-IHT, AD-Lasso, Renew-Lasso, Renew-SIM, and RADAR-GLM.
 
-- **logistic simulation.R**  
+- **code/logistic simulation.R**  
   Simulation code for high-dimensional online logistic regression, including two online settings:
   1. fixed sample size for each batch;
   2. exponentially increasing sample size across batches.
 
-- **logistic plot.R**  
+- **code/logistic plot.R**  
   Visualization code for the logistic regression simulation results.
 
-- **poisson simulation.R**  
+- **code/poisson simulation.R**  
   Simulation code for high-dimensional online Poisson regression under two online settings:
   1. fixed sample size for each batch;
   2. exponentially increasing sample size across batches.
  
   The corresponding results are reported in the Supplementary Material.
 
-- **poisson plot.R**  
+- **code/poisson plot.R**  
   Visualization code for the Poisson regression simulation results reported in the Supplementary Material.
 
-- **FinBase.R**  
+- **code/FinBase.R**  
   Implementation of the online learning methods adapted for financial data analysis.
 
-- **Financial analysis.R**  
+- **code/Financial analysis.R**  
   Main script for the financial data analysis, including data preprocessing, parallel computation, and result aggregation.
+
+- **logitfix0424.RData**
+  Simulation results for logistic regression with fixed sample size for each batch.
+
+- **logitincrease0418.RData**
+  Simulation results for logistic regression with exponentially increasing sample size across batches. 
+
+- **Poissonfix0422.RData**
+  Simulation results for Poisson regression with fixed sample size for each batch.
+
+- **Poissonincrease0423.RData**
+  Simulation results for Poisson regression with exponentially increasing sample size across batches. 
+
+
+Financial Distress data is available at https://www.kaggle.com/datasets/shebrahimi/financial-distress
+
 
 ## Requirements
 
